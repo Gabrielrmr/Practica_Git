@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -14,42 +15,38 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <div class="Contenedor_Principal">
-    <header>
-      <div class="snap">
-        <img src="images/logo.svg" alt="">
+<body>  
+  <header>
+    <div class="Links">
+      <div class="Logo"><img src="images/logo.svg" alt=""></div>
+      <div class="links_imagen"><a class="link Features" href="">Features</a><img class="Flecha_abajo" src="images/icon-arrow-down.svg" alt=""></div>
+      <div class="links_imagen"><a class="link Company" href="">Company</a><img class="Flecha_abajo" src="images/icon-arrow-down.svg" alt=""></div>
+      <a class="link Careers" href="">Careers</a>
+      <a class="link About" href="">About</a>
+    </div>
+    <div class="Botones">
+      <button class="Boton Iniciar">Login</button>
+      <button class="Boton Registrarse">Register</button>
+    </div>
+  </header>
+  <main>
+    <div class="Parrafos">
+      <h1>Make <br> remote work</h1>
+      <p>get your team in sync. no matter your location.
+        Streamline processes. create team rituals. ands
+        watch productivity soar.
+      </p>
+      <button>learn more</button>
+      <div class="Logos">
+        <img src="images/client-maker.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-databiz.svg" alt="">
       </div>
-      <div class="Links">
-        <div><a href="">Features</a><img src="images/icon-arrow-down.svg" alt=""></div>
-        <div><a href="">Company</a><img src="images/icon-arrow-down.svg" alt=""></div>
-        <a href="">Careers</a>
-        <a href="">About</a>
-      </div>
-      <div class="Botones">
-        <button>Login</button>
-        <button>Registrar</button>
-      </div>
-    </header>
-    <main>
-      <div class="Parrafos">
-        <h1>Make <br> remote work</h1>
-        <p>get your team in sync. no matter your location.
-          Streamline processes. create team rituals. ands
-          watch productivity soar.
-        </p>
-        <button>learn more</button>
-        <div class="Logos">
-          <img src="images/client-maker.svg" alt="">
-          <img src="images/client-audiophile.svg" alt="">
-          <img src="images/client-meet.svg" alt="">
-          <img src="images/client-databiz.svg" alt="">
-        </div>
-      </div>
-      <div class="Imagen_Principal">
-        <img src="images/image-hero-desktop.png" alt="">
-      </div>
-    </main>
-  </div>
+    </div>
+    <div class="Imagen_Principal">
+      <img src="images/image-hero-desktop.png" alt="">
+    </div>
+  </main>
 </body>
 </html>

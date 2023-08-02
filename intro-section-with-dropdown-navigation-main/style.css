@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+}
+.Links{
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+.link:hover{
+    color: black;
+}
+.links_imagen{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.Flecha_abajo{
+    height: 10px;
+}
+.Logo{
+    display: flex;
+    padding-top: 8px;
+}
+.Botones{ 
+    display: flex;  
+    gap: 30px;
+    padding-right: 25px;
+}
+.Boton{
+    background-color: white;
+    border: none;
+    color: hsl(0, 0%, 41%);
+}
+.Boton:hover{
+    color: black;
+    border-color: black;
+}
+.Registrarse{
+    height: 40px;
+    width: 100px;
+    border: solid 2px hsl(0, 0%, 41%);
+    border-radius: 15px;
+}
