@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 *{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
     font-size: 18px;
-    font-family:;
+    font-family:"Epilogue" ;
+}
+body{
+    position: relative;
 }
 header{
     display: flex;
@@ -14,11 +18,12 @@ header{
 }
 .Links{
     display: flex;
-    gap: 30px;
-    padding-left: 25px;
+    gap: 46px;
+    padding-left: 46px;
     align-items: center;
 }
 .link{
+    font-size: 16px;
     text-decoration: none;
     color: hsl(0, 0%, 41%);
 }
@@ -33,9 +38,54 @@ header{
 .Flecha_abajo{
     height: 10px;
 }
+
 .Logo{
     display: flex;
     padding-top: 8px;
+}
+.Lista_Features{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 13px;
+    top: 59px;
+    left: 140px;
+    background-color: white;
+    height: 22%;
+    width: 150px;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    color: hsl(0, 0%, 41%);
+}
+.Elementos{
+    display: flex;
+    gap: 20px;
+}
+.Elementos img{
+    width: 15px;
+    height: 20px;
+}
+.Elementos h3{
+    font-size: 15px;
+}
+.Lista_Company{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    border-radius: 15px;
+    gap: 15px;
+    top: 59px;
+    width: 120px;
+    justify-content: center;
+    left: 321px;
+    height: 16%;
+    padding: 24px;
+    color: hsl(0, 0%, 41%);
+}
+.Lista_Company h3{
+    font-size: 15px;
 }
 .Botones{ 
     display: flex;  
@@ -71,6 +121,7 @@ main{
     gap: 50px;
     height: 82vh;
     justify-content: space-between;
+    align-items: center;
 }
 .Parrafos_Texto{
     display: flex;
@@ -79,7 +130,7 @@ main{
     height: max-content;
     padding-top: 60px;
 }
-.Titulo{font-size: 53px;}
+.Titulo{font-size: 80px;}
 .Aprender{
     width: 130px;
     border: none;
@@ -94,7 +145,7 @@ main{
     color: black;
 }
 .Logos{
-    width: 75%;
+    width: 95%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,6 +153,8 @@ main{
 }
 .Imagen_Principal{
     height: 82vh;
+    display: flex;
+    justify-content: center;
 }
 .Imagen_Principal img{
     height: 100%;
