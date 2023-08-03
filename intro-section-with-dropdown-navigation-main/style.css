@@ -44,7 +44,7 @@ header{
     padding-top: 8px;
 }
 .Lista_Features{
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
     gap: 13px;
@@ -70,7 +70,7 @@ header{
     font-size: 15px;
 }
 .Lista_Company{
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
     background-color: white;
@@ -158,4 +158,7 @@ main{
 }
 .Imagen_Principal img{
     height: 100%;
+}
+.Listado_Features{
+    display: flex;
 }
