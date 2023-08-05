@@ -121,8 +121,8 @@ header {
 
 .Botones {
     display: flex;
-    gap: 60px;
-    padding-right: 70px;
+    gap: 45px;
+    padding-right: 75px;
 }
 
 .Boton {
@@ -164,9 +164,9 @@ header {
 }
 
 .Aprender {
-    width: 130px;
+    width: 124px;
     border: none;
-    height: 54px;
+    height: 50px;
     border-radius: 15px;
     background-color: black;
     color: white;
@@ -180,7 +180,8 @@ header {
 
 .Logos {
     display: flex;
-    gap: 45px;
+    gap: 35px;
+    height: 25px;
 }
 
 .Imagen_Principal {
@@ -220,6 +221,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: inherit;
+        gap: 40px;
     }
 
     .Parrafos_Texto {
@@ -256,5 +259,76 @@ header {
         font-size: 21px;
         text-decoration: none;
         color: rgb(105, 105, 105);
+    }
+}
+@media screen and (max-width: 1100px) {
+    .Contenedor_Principal {
+        display: flex;
+        padding: 0px;
+        flex-direction: column-reverse;
+        height: 41vh;
+        gap: 69px;
+    }
+    main {
+        height: 91vh;
+    }
+
+    .Imagen_Principal {
+        justify-content: center;
+        height: inherit;
+    }
+    .Imagen_Principal img{
+        content: url(images/image-hero-mobile.png);
+        height: inherit;
+    }
+    .Parrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: inherit;
+        gap: 40px;
+    }
+
+    .Parrafos_Texto {
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        height: max-content;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .Titulo br {
+        display: none;
+    }
+
+    .Titulo {
+        font-size: 50px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        height: 65px;
+        align-items: center;
+    }
+    
+    .Links {
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 70%;
+        justify-content: space-around;
+        gap: 0px;
+    }
+    
+    .link {
+        font-size: 17px;
+        text-decoration: none;
+        color: rgb(105, 105, 105);
+    }
+    .Botones{
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
     }
 }
